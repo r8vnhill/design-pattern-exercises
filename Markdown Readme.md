@@ -27,7 +27,7 @@ Los ingredientes que se pueden añadir son:
 podrían necesitarse más tipos de pizza en el futuro.
 2. Implemente la solución propuesta en el punto anterior.
 3. La pizzería cuenta con tres formas de realizar los pedidos: en el local, por teléfono y por 
-internet. Considerando que la pizzería debe poder manejar varios pedidos simultáneamente y que
+internet. Considerando que la pizzería debe poder manejar varios pedidos **simultáneamente** y que
 cada pedido puede tener varios tipos de pizza, diseñe un diagrama de clases que permita modelar
 una manera de recibir los pedidos y gestionarlos.
 4. Implemente la solución propuesta en el punto anterior.
@@ -64,4 +64,36 @@ de números.
 1. Diseñe un diagrama de clases para modelar una solución que permita ordenar la lista usando
 los algoritmos de ordenamiento propuestos. _Hint: Utilice herencia para modelar los algoritmos._
 2. Implemente la solución propuesta en el punto anterior.
+
+## Calculadora de derivadas
+
+Una calculadora de derivadas es un programa que permite calcular la derivada de una función
+en un punto dado. En este ejercicio se pide implementar una calculadora de derivadas que
+permita calcular la derivada de una función en un punto dado.
+
+Para esto considere que una función puede representarse como un árbol de expresiones.
+Una expresión puede ser un número, una variable o una operación binaria. Las operaciones
+binarias pueden ser suma, resta, multiplicación y división. Además, una expresión
+puede ser derivada respecto a una variable.
+
+Para esto recuerde que:
+- La derivada de una constante es cero.
+- La derivada de una variable respecto a sí misma es uno.
+- La derivada de una variable respecto a otra variable es cero.
+- La derivada de una suma es la suma de las derivadas.
+- La derivada de una resta es la resta de las derivadas.
+- La derivada de una multiplicación es la multiplicación de la derivada de la primera expresión
+por la segunda expresión más la multiplicación de la primera expresión por la derivada de la
+segunda expresión.
+- La derivada de una división es la división de la resta de la multiplicación de la derivada de
+la primera expresión por la segunda expresión menos la multiplicación de la primera expresión
+por la derivada de la segunda expresión, entre el cuadrado de la segunda expresión.
+
+1. Diseñe un diagrama de clases para modelar una solución que permita calcular la derivada de
+una función en un punto dado.
+2. Implemente la solución propuesta en el punto anterior.
+3. Un problema común es que una función puede contener términos repetidos que pueden tomar un tiempo
+de ejecución muy alto. Diseñe un diagrama de clases para modelar una solución que evite calcular 
+múltiples veces los mismos términos.
+4. Implemente la solución propuesta en el punto anterior.
 
