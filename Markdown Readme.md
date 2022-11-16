@@ -34,11 +34,11 @@ una manera de recibir los pedidos y gestionarlos.
 
 ## Base de datos
 
-El servicio médico legal le encarga el diseño de una base de datos centralizada para la 
+El servicio judicial le encarga el diseño de una base de datos centralizada para la 
 gestión de los expedientes de alcoholemias. El sistema debe permitir registrar los datos de
 los conductores, los datos de los vehículos, los datos de los agentes que realizan las 
 pruebas y los datos de las pruebas realizadas.
-Como la base de datos debe ser accesible desde todos los centros del país es importante 
+Como la base de datos debe ser accesible desde todo el país es importante 
 asegurar que la base de datos sea única.
 
 1. Diseñe un diagrama de clases que permita modelar la base de datos.
@@ -111,3 +111,12 @@ través de tarjetas de crédito, tarjetas de débito y efectivo. _Hint: Diseñe 
 forma que todos los medios de pago implementen la misma interfaz._
 2. Implemente la solución propuesta en el punto anterior.
 
+# Autómata finito determinista
+
+Un autómata finito determinista (AFD) es un modelo matemático que permite representar un lenguaje
+formal. Considere que un AFD está definido por un conjunto de estados, un estado inicial, un 
+conjunto de estados finales y transiciones entre estados. Una transición entre estados es una
+función que toma un estado de origen y un símbolo de entrada y retorna un estado de destino.
+
+1. Diseñe un diagrama de clases que permita modelar un AFD.
+2. Implemente la solución propuesta en el punto anterior.
