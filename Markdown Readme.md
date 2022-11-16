@@ -48,3 +48,20 @@ se desea que la base de datos pueda cambiar de motor de base de datos sin que el
 sistema se vea afectado. Diseñe un diagrama de clases que permita modelar la base de datos
 considerando que se desea que sea independiente del motor de base de datos.
 4. Implemente la solución propuesta en el punto anterior.
+
+## Algoritmos de ordenamiento
+
+Una lista de números enteros se puede ordenar de diferentes maneras. En este ejercicio se
+pide implementar los siguientes algoritmos de ordenamiento:
+
+- QuickSort
+- MergeSort
+- BubbleSort
+
+Para esto considere que tiene una clase abstracta `AbstractIntList` que representa una lista
+de números.
+
+1. Diseñe un diagrama de clases para modelar una solución que permita ordenar la lista usando
+los algoritmos de ordenamiento propuestos. _Hint: Utilice herencia para modelar los algoritmos._
+2. Implemente la solución propuesta en el punto anterior.
+
