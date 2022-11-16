@@ -97,3 +97,17 @@ de ejecución muy alto. Diseñe un diagrama de clases para modelar una solución
 múltiples veces los mismos términos.
 4. Implemente la solución propuesta en el punto anterior.
 
+## Sistemas de pago
+
+Considere que se desea implementar un sistema de pago que permita realizar pagos a través de
+tarjetas de crédito, tarjetas de débito y efectivo. Además, se desea que el sistema pueda
+realizar pagos a través de múltiples monedas.
+Para esto considere que desde el punto de vista del sistema de pago, todos los tipos de pago son
+equivalentes, es decir, no importa si el pago se realiza con tarjeta de crédito, tarjeta de débito
+o efectivo, el sistema de pago no necesita tener conocimiento de la forma en que se realiza el pago.
+
+1. Diseñe un diagrama de clases que permita modelar una solución que permita realizar pagos a
+través de tarjetas de crédito, tarjetas de débito y efectivo. _Hint: Diseñe su solución de tal
+forma que todos los medios de pago implementen la misma interfaz._
+2. Implemente la solución propuesta en el punto anterior.
+
