@@ -7,7 +7,7 @@ This work is licensed under a
 
 ---
 
-# Pizzería
+## Pizzería
 
 Una pizzería necesita un sistema para gestionar sus pedidos y le pide a usted que la desarrolle.
 La pizzería actualmente consta de 3 tipos de pizza: Margarita, Funghi y Carbonara. Cada una de ellas
@@ -30,4 +30,21 @@ podrían necesitarse más tipos de pizza en el futuro.
 internet. Considerando que la pizzería debe poder manejar varios pedidos simultáneamente y que
 cada pedido puede tener varios tipos de pizza, diseñe un diagrama de clases que permita modelar
 una manera de recibir los pedidos y gestionarlos.
+4. Implemente la solución propuesta en el punto anterior.
+
+## Base de datos
+
+El servicio médico legal le encarga el diseño de una base de datos centralizada para la 
+gestión de los expedientes de alcoholemias. El sistema debe permitir registrar los datos de
+los conductores, los datos de los vehículos, los datos de los agentes que realizan las 
+pruebas y los datos de las pruebas realizadas.
+Como la base de datos debe ser accesible desde todos los centros del país es importante 
+asegurar que la base de datos sea única.
+
+1. Diseñe un diagrama de clases que permita modelar la base de datos.
+2. Implemente la solución propuesta en el punto anterior.
+3. Inicialmente, se pide que la base de datos sea implementada con SQLite, pero en el futuro
+se desea que la base de datos pueda cambiar de motor de base de datos sin que el resto del
+sistema se vea afectado. Diseñe un diagrama de clases que permita modelar la base de datos
+considerando que se desea que sea independiente del motor de base de datos.
 4. Implemente la solución propuesta en el punto anterior.
